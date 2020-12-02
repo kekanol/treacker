@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4400D192533ABE80095977C /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4400D182533ABE80095977C /* MainModel.swift */; };
+		F4400D1C2533ABF60095977C /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4400D1B2533ABF60095977C /* MapModel.swift */; };
+		F4400D282533B8900095977C /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4400D272533B8900095977C /* MapViewModel.swift */; };
+		F4400D2B2533BBE50095977C /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4400D2A2533BBE50095977C /* StopWatch.swift */; };
 		F4A456A8252F6FFC007EB8AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A456A7252F6FFC007EB8AF /* AppDelegate.swift */; };
 		F4A456AA252F6FFC007EB8AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A456A9252F6FFC007EB8AF /* SceneDelegate.swift */; };
-		F4A456AC252F6FFC007EB8AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A456AB252F6FFC007EB8AF /* ContentView.swift */; };
+		F4A456AC252F6FFC007EB8AF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A456AB252F6FFC007EB8AF /* MainView.swift */; };
 		F4A456AE252F6FFD007EB8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A456AD252F6FFD007EB8AF /* Assets.xcassets */; };
 		F4A456B1252F6FFD007EB8AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A456B0252F6FFD007EB8AF /* Preview Assets.xcassets */; };
 		F4A456B4252F6FFD007EB8AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A456B2252F6FFD007EB8AF /* LaunchScreen.storyboard */; };
+		F4A456BE252F8DB0007EB8AF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A456BD252F8DB0007EB8AF /* MapView.swift */; };
+		F4D22AC02533A5950087D5E6 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D22ABF2533A5950087D5E6 /* Extentions.swift */; };
+		F4E5A9BF25378B8D005D917D /* FinalMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5A9BE25378B8D005D917D /* FinalMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4400D182533ABE80095977C /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		F4400D1B2533ABF60095977C /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		F4400D272533B8900095977C /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		F4400D2A2533BBE50095977C /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 		F4A456A4252F6FFC007EB8AF /* treacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = treacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A456A7252F6FFC007EB8AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4A456A9252F6FFC007EB8AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4A456AB252F6FFC007EB8AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4A456AB252F6FFC007EB8AF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F4A456AD252F6FFD007EB8AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A456B0252F6FFD007EB8AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4A456B3252F6FFD007EB8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4A456B5252F6FFD007EB8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A456BD252F8DB0007EB8AF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F4D22ABF2533A5950087D5E6 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		F4E5A9BE25378B8D005D917D /* FinalMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4400D212533B0B30095977C /* MainInfo */ = {
+			isa = PBXGroup;
+			children = (
+				F4A456AB252F6FFC007EB8AF /* MainView.swift */,
+				F4400D2A2533BBE50095977C /* StopWatch.swift */,
+				F4400D182533ABE80095977C /* MainModel.swift */,
+			);
+			path = MainInfo;
+			sourceTree = "<group>";
+		};
+		F4400D232533B0C30095977C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F4E5A9BE25378B8D005D917D /* FinalMapView.swift */,
+				F4A456BD252F8DB0007EB8AF /* MapView.swift */,
+				F4400D272533B8900095977C /* MapViewModel.swift */,
+				F4400D1B2533ABF60095977C /* MapModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		F4A4569B252F6FFC007EB8AF = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +91,12 @@
 		F4A456A6252F6FFC007EB8AF /* treacker */ = {
 			isa = PBXGroup;
 			children = (
+				F4400D212533B0B30095977C /* MainInfo */,
+				F4400D232533B0C30095977C /* Map */,
+				F4D22ABF2533A5950087D5E6 /* Extentions.swift */,
+				F4A456AD252F6FFD007EB8AF /* Assets.xcassets */,
 				F4A456A7252F6FFC007EB8AF /* AppDelegate.swift */,
 				F4A456A9252F6FFC007EB8AF /* SceneDelegate.swift */,
-				F4A456AB252F6FFC007EB8AF /* ContentView.swift */,
-				F4A456AD252F6FFD007EB8AF /* Assets.xcassets */,
 				F4A456B2252F6FFD007EB8AF /* LaunchScreen.storyboard */,
 				F4A456B5252F6FFD007EB8AF /* Info.plist */,
 				F4A456AF252F6FFD007EB8AF /* Preview Content */,
@@ -102,7 +139,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Константин Емельянов";
 				TargetAttributes = {
 					F4A456A3252F6FFC007EB8AF = {
@@ -147,8 +184,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A456A8252F6FFC007EB8AF /* AppDelegate.swift in Sources */,
+				F4A456BE252F8DB0007EB8AF /* MapView.swift in Sources */,
+				F4400D192533ABE80095977C /* MainModel.swift in Sources */,
+				F4D22AC02533A5950087D5E6 /* Extentions.swift in Sources */,
+				F4E5A9BF25378B8D005D917D /* FinalMapView.swift in Sources */,
+				F4400D1C2533ABF60095977C /* MapModel.swift in Sources */,
 				F4A456AA252F6FFC007EB8AF /* SceneDelegate.swift in Sources */,
-				F4A456AC252F6FFC007EB8AF /* ContentView.swift in Sources */,
+				F4A456AC252F6FFC007EB8AF /* MainView.swift in Sources */,
+				F4400D2B2533BBE50095977C /* StopWatch.swift in Sources */,
+				F4400D282533B8900095977C /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +236,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +297,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -285,10 +331,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"treacker/Preview Content\"";
 				DEVELOPMENT_TEAM = 3A9536C2AF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = treacker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +344,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LeplaSak.treacker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,10 +353,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"treacker/Preview Content\"";
 				DEVELOPMENT_TEAM = 3A9536C2AF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = treacker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LeplaSak.treacker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
